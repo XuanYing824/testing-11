@@ -1,0 +1,179 @@
+import "./App.css";
+
+function App() {
+  return (
+    <div className="app">
+      <header className="header">
+        <div className="logo">
+          🦯 <span>BlindPath</span>
+        </div>
+
+        <nav>
+          <a href="#home">Home</a>
+          <a href="#map">Map</a>
+          <a href="#report">Report</a>
+          <a href="#about">About</a>
+        </nav>
+      </header>
+
+      <main>
+        <section id="home" className="hero">
+          <div className="hero-content">
+            <p className="label">SMART ACCESSIBILITY PLATFORM</p>
+
+            <h1>
+              Safer paths.
+              <br />
+              Greater independence.
+            </h1>
+
+            <p className="description">
+              BlindPath helps visually impaired people find
+              accessible routes, discover accessibility facilities,
+              and report problems in their communities.
+            </p>
+
+            <div className="buttons">
+              <button className="primary">
+                🗺️ Find Accessible Route
+              </button>
+
+              <button className="secondary">
+                🚧 Report a Problem
+              </button>
+            </div>
+          </div>
+
+          <div className="hero-card">
+            <div className="icon">🦯</div>
+
+            <h2>Accessibility starts with better information.</h2>
+
+            <p>
+              BlindPath connects users, communities, volunteers,
+              and accessibility information to help create safer
+              journeys.
+            </p>
+          </div>
+        </section>
+
+        <section className="features">
+          <p className="label">BLINDPATH FEATURES</p>
+
+          <h2>Designed for accessibility</h2>
+
+          <div className="feature-grid">
+            <div className="feature-card">
+              <div className="feature-icon">🗺️</div>
+              <h3>Accessible Routes</h3>
+              <p>
+                Find routes that consider accessibility paths,
+                facilities, and reported obstacles.
+              </p>
+            </div>
+
+            <div className="feature-card">
+              <div className="feature-icon">🚧</div>
+              <h3>Report Problems</h3>
+              <p>
+                Report blocked or damaged blind paths and other
+                accessibility problems.
+              </p>
+            </div>
+
+            <div className="feature-card">
+              <div className="feature-icon">📊</div>
+              <h3>Accessibility Data</h3>
+              <p>
+                Community reports can help identify areas that
+                need accessibility improvements.
+              </p>
+            </div>
+
+            <div className="feature-card">
+              <div className="feature-icon">🤝</div>
+              <h3>Community Support</h3>
+              <p>
+                Connect volunteers and communities with people
+                who need assistance.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section id="map" className="map-section">
+          <p className="label">ACCESSIBILITY MAP</p>
+
+          <h2>Find an accessible route</h2>
+
+          <div className="map-placeholder">
+            <div>
+              <div className="map-icon">📍</div>
+
+              <h3>Interactive map</h3>
+
+              <p>
+                The BlindPath map will show accessible paths,
+                obstacles, facilities, and routes.
+              </p>
+
+              <button className="primary">
+                Open Map
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <section id="report" className="report-section">
+          <div className="report-card">
+            <div>
+              <p className="label">HELP IMPROVE ACCESSIBILITY</p>
+
+              <h2>See an accessibility problem?</h2>
+
+              <p>
+                Report blocked blind paths, damaged tactile
+                paving, missing facilities, or other problems.
+              </p>
+            </div>
+
+            <button className="primary">
+              🚧 Submit Report
+            </button>
+          </div>
+        </section>
+
+        <section id="about" className="about">
+          <div>
+            <p className="label">ABOUT BLINDPATH</p>
+
+            <h2>Building a more accessible community.</h2>
+          </div>
+
+          <div>
+            <p>
+              BlindPath is an accessibility platform designed
+              to connect visually impaired users, the public,
+              volunteers, and relevant authorities.
+            </p>
+
+            <p>
+              Our goal is to make accessible navigation and
+              accessibility information easier to find.
+            </p>
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        <strong>🦯 BlindPath</strong>
+
+        <span>
+          Accessible navigation for everyone.
+        </span>
+      </footer>
+    </div>
+  );
+}
+
+export default App;
